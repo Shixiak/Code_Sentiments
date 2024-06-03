@@ -1,5 +1,18 @@
 # 刷题日记
 
+## 回溯算法
+
+### 1.[组合](./problems/0077.组合.md)
+
+次数：1
+
+### 2.[组合总和III](./problems/0216.组合总和III.md)
+
+次数：1
+![main()伪代码](pics/combination_sum_2.png)
+![Backtracking()伪代码](pics/combination_sum_1.png)
+
+
 ## 贪心算法
 
 ### 1.[分发饼干](./problems/0455.分发饼干.md)
