@@ -9,9 +9,26 @@
 ### 2.[组合总和III](./problems/0216.组合总和III.md)
 
 次数：1
+
+main()伪代码
 ![main()伪代码](pics/combination_sum_2.png)
+
+Backtracking()伪代码
 ![Backtracking()伪代码](pics/combination_sum_1.png)
 
+### 3.[电话号码的字母组合](./problems/0017.电话号码的字母组合.md)
+
+[次数：1](https://leetcode.cn/problems/letter-combinations-of-a-phone-number/)
+
+main()伪代码
+![alt text](pics/phone_combination_1.png)
+
+Backtracking()伪代码
+![alt text](pics/phone_combination_2.png)
+
+### 4.[N皇后](./problems/0051.N皇后.md)
+
+[次数：1](https://leetcode.cn/problems/n-queens/)
 
 ## 贪心算法
 
@@ -21,7 +38,7 @@
 
 ### 2.[摆动序列](./problems/0376.摆动序列.md)
 
-[贪心：1](./problems/0376.摆动序列.md)
+[贪心：1](https://leetcode.cn/problems/wiggle-subsequence/)
 
 最摆烂的一集，我自己都没写，直接看的解析，不过还是有收获
 
@@ -54,6 +71,14 @@
 ![跳跃游戏分析](pics/jump_2.png)
 
 ---
+
+## 动态规划
+
+### 背包问题
+
+#### [1.分割等和子集](./problems/0416.分割等和子集.md)
+
+
 
 ## 单调栈
 
