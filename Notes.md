@@ -82,11 +82,34 @@ Backtracking()伪代码
 
 ## 单调栈
 
-### 1.每日温度
+### [1.每日温度](.\problems\0739.每日温度.md)
 
-[次数：2](.\problems\0739.每日温度.md)
+次数：2
+
+### thinking
 
 ![每日温度分析](pics/daily_temp_1.png)
+
+#### 伪代码
+
+```c++
+// input : temperatures:vector<int>,everyday's temperature;
+// output : result:days for observing higher temperatures;
+greatTmp(temperatures) {
+    // result[]={0} : days for observing higher temperatures
+    // st : monotonic stack, auxiliary day count
+    for (int i = 0; i < temperatures.size();) {
+        if (st.empty() && temperature[st.top()] >= temperatures[i]) {
+            st.push(i);
+            i++;
+        }
+        else if (temperatures[st.top()] < temperatures[i]) {
+            result[st.top()] = i - st.top();
+            st.pop();
+        }
+    }
+}
+```
 
 ### 2.下一个更大元素
 
