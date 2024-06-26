@@ -92,10 +92,14 @@ Backtracking()伪代码
 
 #### 伪代码
 
+* Why initialize result array to 0?
+* if the array is monotonically decreasing,no pop operation occurs;
+
+
 ```c++
 // input : temperatures:vector<int>,everyday's temperature;
 // output : result:days for observing higher temperatures;
-greatTmp(temperatures) {
+greaterTmp(temperatures) {
     // result[]={0} : days for observing higher temperatures
     // st : monotonic stack, auxiliary day count
     for (int i = 0; i < temperatures.size();) {
