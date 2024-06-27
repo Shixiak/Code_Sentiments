@@ -76,7 +76,17 @@ Backtracking()伪代码
 
 ### 背包问题
 
-#### [1.分割等和子集](./problems/0416.分割等和子集.md)
+#### [11.01背包理论基础](./problems/背包理论基础01背包-1.md)
+
+二维数组dp[i][j]表示前i件物品恰好放入一个容量为j的背包可以获得的最大价值。
+
+State transfer equation:dp[i][j] = max(dp[i-1][j], dp[i-1][j-weight[i]]+value[i]);
+
+#### [12.01背包理论基础（滚动数组）](./problems/背包理论基础01背包-2.md)
+
+State transfer equation:dp[j] = dp[j],dp[j]
+
+#### [13.分割等和子集](./problems/0416.分割等和子集.md)
 
 #### [2.最后一块石头的重量II](./problems/1049.最后一块石头的重量II.md)
 
@@ -94,7 +104,6 @@ Backtracking()伪代码
 
 * Why initialize result array to 0?
 * if the array is monotonically decreasing,no pop operation occurs;
-
 
 ```c++
 // input : temperatures:vector<int>,everyday's temperature;
